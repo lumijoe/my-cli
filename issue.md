@@ -4,6 +4,8 @@
 - グローバルで Vue の CLI をインストール（vue --version で導入を確認）
 - 任意の場所で vue create my-cli(← ディレクトリ命名)で作成
 - version3 を選択
+- .gitignore に node_modules が配置されているようにする
+- その後の push で github Languages 表記が Vue が生成されていなければ再度作成し直す
 
 ## Github 連携
 
@@ -18,3 +20,7 @@
   - setting タブ →pages タブ →Build and deployment の Branch の選択で main が生成されているので
     main に変更して save する
   - actions や code タブで git push がなされていることを確認
+
+## 起動
+
+- npm run serve でローカルホストがターミナルに表示されるのでクリック
