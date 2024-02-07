@@ -39,7 +39,7 @@
 
 **Router と Vuex の導入（必須）**
 
-- vue add router
+- vue add router(install 時に history モードの yes/no を問われるので yes に。履歴モードの使用。vuex との統合が可能、ユーザー UX にも良い。)
 - vue add vuex
   /
   /
