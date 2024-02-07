@@ -29,7 +29,8 @@
 
 **単体テストのための Jest を組み込む**
 
-- vue add @vue/unit-jest
+- vue add @vue/unit-jest ではエラーが出たので、vue add unit-jest で導入し、package.json で確認し
+- 依存関係を更新するため npm install をする
   /
   /
   /
