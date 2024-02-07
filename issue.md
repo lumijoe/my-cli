@@ -29,8 +29,18 @@
 
 **単体テストのための Jest を組み込む**
 
-- vue add @vue/unit-jest ではエラーが出たので、vue add unit-jest で導入し、package.json で確認し
+- vue add @vue/unit-jest ではエラーが出たので、vue add unit-jest で導入し、package.json で確認
+  参考資料：https://zenn.dev/hrtk/scraps/3107800740739e
 - 依存関係を更新するため npm install をする
+
+**Element UI の導入(参考)**
+
+- 今回はまず導入せず使用してみるので参考まで（vue add element）
+
+**Router と Vuex の導入（必須）**
+
+- vue add router
+- vue add vuex
   /
   /
   /
@@ -44,5 +54,6 @@
 
 ## ビルドする時(package.json のコードで確認可能)
 
+- まだ実行していない 2024.0207 時点
 - プロジェクトの内容をそのまま実行する npm run serve に対し
 - アプリをビルド(ブラウザがそのままでは認識できないファイルをコンパイルして実行可能な.js や.css ファイルを生成すること)して本番環境に配置（デプロイ）する npm run build
