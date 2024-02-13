@@ -41,16 +41,25 @@
 
 - vue add router(install 時に history モードの yes/no を問われるので yes に。履歴モードの使用。vuex との統合が可能、ユーザー UX にも良い。)
 - vue add vuex
-  /
-  /
-  /
-  /
-  /
-  /
-  /
-  /
-  /
-  /
+
+**npm serve を使用するための導入**
+
+- 導入時のエラー対処が npm serve 実行時に影響する
+  - 脆弱性の発見で npm audit fix --force を使用した（のちにこれが起動しなくなる原因となる）
+  - 脆弱性が中程度のもので 4 つ程度なら npm audit fix をする前に一旦 npm serve を試してみる
+  - もし npm serve が起動しない場合は
+    - node_modules と package-lock.json を一旦削除して依存関係を一旦切り離す
+    - npm install で 2 つのファイルを再生成させ、依存関係を再構築させる
+    - npm serve で localhost:8080 が起動できれば OK
+      /
+      /
+      /
+      /
+      /
+      /
+      /
+      /
+      /
 
 ## ビルドする時(package.json のコードで確認可能)
 
