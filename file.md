@@ -21,4 +21,10 @@
 **App.vue(メインコンポーネント)**
 **main.js(エントリースクリプト)**
 
-**package.json0213**
+**route-basic/src/router.js**
+
+- Vue Router を有効化し、ルーティングを設定
+
+**【履歴メモ】package-lock.json, noe_modules の削除と再 npm install**
+
+- 0213 実施：vue serve 使用による install 時の npm audit fix で 0209 に発生したバグのデバッグ対応

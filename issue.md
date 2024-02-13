@@ -51,15 +51,21 @@
     - node_modules と package-lock.json を一旦削除して依存関係を一旦切り離す
     - npm install で 2 つのファイルを再生成させ、依存関係を再構築させる
     - npm serve で localhost:8080 が起動できれば OK
-      /
-      /
-      /
-      /
-      /
-      /
-      /
-      /
-      /
+
+**ルーターの利用**
+
+- ルーティング設定：どの URL に対してどのコンポーネントを紐づけるか
+- src/router/index.js でデフォルト設定されているものもあるし
+- route-basic/src/router.js でカスタム設定できるものもある
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
+  /
 
 ## ビルドする時(package.json のコードで確認可能)
 
