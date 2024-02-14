@@ -60,6 +60,18 @@
   /
   /
   /
+
+**他のデバイスで実行する時**
+
+- cloneする　git clone https://github.com/lumijoe/my-cli.git
+- 依存関係を構築するために npm install
+- 使用する言語のインストールができていなければインストールする
+- それを確認するために、version確認をターミナルで実行する
+  - node --version, npm --version, vue --versionでバージョンが出てこなければ
+  インストールする必要あり（今回はvue関係がインストールできていないので次に）
+   
+- npm install -g @vue/cli
+
   /
   /
   /
