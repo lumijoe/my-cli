@@ -70,7 +70,8 @@
   - node --version, npm --version, vue --versionでバージョンが出てこなければ
   インストールする必要あり（今回はvue関係がインストールできていないので次に）
    
-- npm install -g @vue/cli
+- npm install -g @vue/cli, npm install -g @vue/cli-service-global
+vueのcliを使用するためと、vue serveを使用するためにインストールが必要
 
   /
   /
