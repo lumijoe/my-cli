@@ -5,7 +5,7 @@
   
   <script>
   export default {
-    name: 'Article',
+    name: 'ArticleComp',
     props: {	
       aid: String
       //aid: Number
