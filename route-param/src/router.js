@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../../src/views/Home.vue'
-import ArticleComp from './components/ArticleComp'
+import ArticleComp from './components/ArticleComp.vue'
 import About from '../../src/views/About.vue'
 
 Vue.use(Router)
