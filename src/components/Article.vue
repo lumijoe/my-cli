@@ -1,13 +1,14 @@
-<!-- Article.vue -->
 <template>
-    <span>記事コード:{{ aid }}</span>
-</template>
-
-<script>
-    export default {
-        name: 'Article',
-        props: {
-            aid: String
-        }
+    <span>記事コード：{{ aid }}</span>
+   
+  </template>
+  
+  <script>
+  export default {
+    name: 'Article',
+    props: {	
+      aid: String
+      //aid: Number
     }
-</script>
+  }
+  </script>

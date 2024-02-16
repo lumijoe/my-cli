@@ -26,7 +26,10 @@ export default new Router ({
             path: '/article/:aid',
             name: 'article',
             component: Article,
-            props: true
+            // props: true
+            props: routes => ({
+                aid: Number(routes.params.aid)
+            })
         }
     ]
 })
