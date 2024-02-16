@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import About from './views/About.vue'
+import AboutView from './views/AboutView.vue'
 import Signin from './components/Signin.vue'
 
 Vue.use(Router)
@@ -23,7 +23,7 @@ const router = new Router({
     {
       path: '/about',
       name: 'about',
-      component: About,
+      component: AboutView,
       meta: {
         isRequestAuth: true
       }
