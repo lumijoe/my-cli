@@ -93,7 +93,7 @@
     Ran all test suites matching /intro.spec.js/i.
     などが表示される
 
-  **E2E**
+**E2E**
 
 - CLI で vue create ディレクトリ名を作成する時に
   - Manually select features を選択
