@@ -74,7 +74,23 @@
 - CLI で vue create ディレクトリ名を作成する時に
   - Manually select features を選択
   - Unit testing 選択肢の際に Mocha + Chai ではなく Jest を選択しておく
-  - cd でそのディレクトリに移動
+  - テストコードを記述(例：tests-unit/test/unit/intro.spec.js)
+  - ルートディレクトリで npx vue-cli-service test:unit intro.spec.js を実行
+  - テストが走り、結果がターミナルに表示される
+    npx vue-cli-service test:unit intro.spec.js
+    console.log
+    2024/2/19 15:47:24
+    at Object.<anonymous> (tests-unit/tests/unit/intro.spec.js:3:15)
+    PASS tests-unit/tests/unit/intro.spec.js
+    Jest の基本
+    ✓ はじめてのテスト (56 ms)
+    Test Suites: 1 passed, 1 total
+    Tests: 1 passed, 1 total
+    Snapshots: 0 total
+    Time: 4.708 s
+    Ran all test suites matching /intro.spec.js/i.
+    などが表示される
+  -
 
 ## ビルドする時(package.json のコードで確認可能)
 
