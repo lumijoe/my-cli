@@ -64,6 +64,7 @@ export default new Vuex.Store({
   },
   actions: {    
     addAsync(context, payload) {
+      // 5000m秒後にミューテーション（ADD_BOOK）をコミット
       setTimeout(function() {
         context.commit(ADD_BOOK, payload)
       }, 5000)
