@@ -70,8 +70,10 @@
   vue の cli を使用するためと、vue serve を使用するためにインストールが必要
 
 **テストを導入するために**
+**Jest**
 
 - CLI で vue create ディレクトリ名を作成する時に
+
   - Manually select features を選択
   - Unit testing 選択肢の際に Mocha + Chai ではなく Jest を選択しておく
   - テストコードを記述(例：tests-unit/test/unit/intro.spec.js)
@@ -90,7 +92,12 @@
     Time: 4.708 s
     Ran all test suites matching /intro.spec.js/i.
     などが表示される
-  -
+
+  **E2E**
+
+- CLI で vue create ディレクトリ名を作成する時に
+  - Manually select features を選択
+  - E2E 選択肢の時に Nightwatch を選択
 
 ## ビルドする時(package.json のコードで確認可能)
 
