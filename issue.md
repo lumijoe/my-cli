@@ -57,34 +57,27 @@
 - ルーティング設定：どの URL に対してどのコンポーネントを紐づけるか
 - src/router/index.js でデフォルト設定されているものもあるし
 - route-basic/src/router.js でカスタム設定できるものもある
-  /
-  /
-  /
 
 **他のデバイスで実行する時**
 
-- cloneする　git clone https://github.com/lumijoe/my-cli.git
+- clone する　 git clone https://github.com/lumijoe/my-cli.git
 - 依存関係を構築するために npm install
 - 使用する言語のインストールができていなければインストールする
-- それを確認するために、version確認をターミナルで実行する
-  - node --version, npm --version, vue --versionでバージョンが出てこなければ
-  インストールする必要あり（今回はvue関係がインストールできていないので次に）
-   
+- それを確認するために、version 確認をターミナルで実行する
+  - node --version, npm --version, vue --version でバージョンが出てこなければ
+    インストールする必要あり（今回は vue 関係がインストールできていないので次に）
 - npm install -g @vue/cli, npm install -g @vue/cli-service-global
-vueのcliを使用するためと、vue serveを使用するためにインストールが必要
+  vue の cli を使用するためと、vue serve を使用するためにインストールが必要
 
-  /
-**0214**
-- page312~ list8-2  
-  /
-  /
-  /
-  /
-  /
+**テストを導入するために**
+
+- CLI で vue create ディレクトリ名を作成する時に
+  - Manually select features を選択
+  - Unit testing 選択肢の際に Mocha + Chai ではなく Jest を選択しておく
+  - cd でそのディレクトリに移動
 
 ## ビルドする時(package.json のコードで確認可能)
 
 - まだ実行していない 2024.0207 時点
 - プロジェクトの内容をそのまま実行する npm run serve に対し
 - アプリをビルド(ブラウザがそのままでは認識できないファイルをコンパイルして実行可能な.js や.css ファイルを生成すること)して本番環境に配置（デプロイ）する npm run build
-
