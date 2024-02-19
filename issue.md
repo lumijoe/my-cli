@@ -98,6 +98,10 @@
 - CLI で vue create ディレクトリ名を作成する時に
   - Manually select features を選択
   - E2E 選択肢の時に Nightwatch を選択
+  - コードを書いたら（test.js）
+  - ルートディレクトリではなくそのフォルダ tests-e2e のディレクトリに移動し
+  - npx vue-cli-service test:e2e を実行すると
+    PASSED のような結果が表示される
 
 ## ビルドする時(package.json のコードで確認可能)
 
