@@ -55,11 +55,11 @@
         //this.add(payload)
   
         //this.addAsync({
-        this.add({
-          book: {
-            isbn: this.isbn, title: this.title, price: this.price
-          }
-        })
+        // this.add({
+        //   book: {
+        //     isbn: this.isbn, title: this.title, price: this.price
+        //   }
+        // })
   
         /*
         this.$store.commit('addBook', {
@@ -79,15 +79,15 @@
         })
         */
   
-        /*
+        
         //addAsyncアクションの呼び出し
         this.$store.dispatch('addAsync', {
           book: {
             isbn: this.isbn, title: this.title, price: this.price
           }
         })
-        */
-  
+        
+        
         /*
         // オブジェクトリテラルにまとめてaddAsyncアクションの呼び出し
         this.$store.dispatch({
